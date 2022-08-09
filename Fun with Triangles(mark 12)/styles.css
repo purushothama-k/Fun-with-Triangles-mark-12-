@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+    color: #fff;
+
+}
+
+.btn{
+    margin: 2rem 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(219, 227, 227);
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(0.97);
+}
+label{
+    margin-left: 1.5rem;
+}
+input{
+    margin-top: 2rem;
+    width: 15vw;
+    height: 30px;
+}
+.home{
+    position: fixed;
+    right: 20px;
+   
+}
+.home_btn{
+    border-radius: 100px;
+    padding: 1rem;
+    border: none;
+}
+a{
+    text-decoration: none;
+
+}

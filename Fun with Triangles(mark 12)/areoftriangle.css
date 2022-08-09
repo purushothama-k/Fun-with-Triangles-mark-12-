@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  height: 100vh;
+  color: #fff;
+
+}
+.block {
+  display: block;
+  margin-top: 1rem;
+}
+.btn {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+.formula{
+  margin: 1rem;
+}
+.block{
+  margin: 0.5rem;
+}
+
+.input{
+  width: 15vw;
+  height: 30px;
+  border: 1px solid black;
+}
+.op{
+  color: rgb(234, 203, 26);
+}
+.home{
+  position: fixed;
+  right: 20px;
+ 
+}
+.home_btn{
+  border-radius: 100px;
+  padding: 1rem;
+  border: none;
+}
+a{
+  text-decoration: none;
+
+}
