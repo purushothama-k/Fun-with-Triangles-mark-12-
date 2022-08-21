@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="trianglequiz.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Triangle Quiz</title>
   </head>
   <body>
@@ -17,8 +20,8 @@
         <!-- 1st question -->
         <div class="question-container">
           <p>
-           1: What is the 3rd angle for the triangle where angle1=45°, angle2=45°
-            and angle3=?
+            1: What is the 3rd angle for the triangle where angle1=45°,
+            angle2=45° and angle3=?
           </p>
           <label><input type="radio" name="question1" value="45°" />45°</label>
           <label><input type="radio" name="question1" value="60°" />60°</label>
@@ -38,13 +41,65 @@
             Angle</label
           >
         </div>
+
+        <div class="question-container">
+          <p>3: How many edges does a triangle have?</p>
+          <label><input type="radio" name="question3" value="3" />3</label>
+          <label><input type="radio" name="question3" value="2" />2</label>
+          <label><input type="radio" name="question3" value="4" />4</label>
+        </div>
+
+        <div class="question-container">
+          <p>4: What is the longest side of a triangle called?</p>
+          <label
+            ><input type="radio" name="question4" value="Hyppo" />Hyppo</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="Hypopothamus"
+            />Hypopothamus</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="Hypotenuse"
+            />Hypotenuse</label
+          >
+        </div>
+
+        <div class="question-container">
+          <p>5: What is a triangle?</p>
+          <label
+            ><input type="radio" name="question5" value="A geometric figure" />A
+            geometric figure</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question5"
+              value="An form of
+            architecture"
+            />An form of architecture</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question5"
+              value="A piece
+            of art"
+            />A piece of art</label
+          >
+        </div>
       </form>
       <button class="submit-answer-btn">Submit Answers</button>
       <div class="op"></div>
     </div>
     <div class="home">
-      <button class="home_btn"> <a href="main.html">Home</a> </button>
-  </div>
+      <button class="home_btn"><a href="main.html">Home</a></button>
+    </div>
     <script src="trianglequiz.js"></script>
   </body>
 </html>

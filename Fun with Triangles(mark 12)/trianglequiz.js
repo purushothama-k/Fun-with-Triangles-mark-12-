@@ -3,7 +3,13 @@ const quizFormEL = document.querySelector('.quiz-form');
 const submitAnswerBtnEl = document.querySelector('.submit-answer-btn');
 const opEl = document.querySelector('.op');
 
-const rightAnswers = ['90°', 'Right Angle'];
+const rightAnswers = [
+  '90°',
+  'Right Angle',
+  '3',
+  'Hypotenuse',
+  'A geometric figure',
+];
 
 const findAnswer = function () {
   let score = 0;
