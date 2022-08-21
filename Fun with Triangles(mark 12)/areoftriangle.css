@@ -6,10 +6,16 @@
 }
 body {
   text-align: center;
-  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-image: linear-gradient(
+    to right bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
   height: 100vh;
   color: #fff;
-
 }
 .block {
   display: block;
@@ -22,32 +28,31 @@ body {
   padding: 5px 10px;
   font-size: 1rem;
 }
-.formula{
+.formula {
   margin: 1rem;
 }
-.block{
+.block {
   margin: 0.5rem;
 }
 
-.input{
+.input {
   width: 15vw;
   height: 30px;
   border: 1px solid black;
 }
-.op{
-  color: rgb(234, 203, 26);
+.op {
+  color: rgb(213, 220, 21);
+  font-size: 1.3rem;
 }
-.home{
+.home {
   position: fixed;
   right: 20px;
- 
 }
-.home_btn{
+.home_btn {
   border-radius: 100px;
   padding: 1rem;
   border: none;
 }
-a{
+a {
   text-decoration: none;
-
 }
